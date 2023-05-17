@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="dist/css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <title>Copy Google Search by Agus Pranyoto</title>
+  </head>
+  <body>
+    <header>
+      <div class="header__right">
+        <a href="#gmail">Gmail</a>
+        <a href="#gambar">Gambar</a>
+        <a class="icon" href="#icon1"
+          ><span class="material-icons">apps</span></a
+        >
+        <a class="icon" href="#icon2"
+          ><span class="material-icons">account_circle</span></a
+        >
+      </div>
+    </header>
+    <section>
+      <div class="feature">
+        <img src="dist/img/google-logo.svg" alt="" />
+        <div class="search">
+          <div class="search__input">
+            <span class="material-icons">search</span>
+            <input
+              type="text"
+              id="searchInput"
+              onkeypress="handleKeyPress(event)"
+            />
+            <span class="material-icons">photo_camera</span>
+          </div>
+        </div>
+        <div class="search__action">
+          <button onclick="search()">Penelusuran Google</button>
+          <button>Saya Lagi Beruntung</button>
+        </div>
+        <div class="language">
+          <div>
+            Google tersedia dalam bahasa:
+            <a href="#english">English</a>
+            <a href="#indonesia">Indonesia</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="dist/js/main.js"></script>
+  </body>
+</html>
