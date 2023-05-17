@@ -141,15 +141,3 @@ section {
   margin-right: 6px;
 }
 
-/* On screens that are 992px or less, set the background color to blue */
-@media screen and (max-width: 992px) {
-  body {
-    background-color: blue;
-  }
-}
-
-/* On screens that are 600px or less, set the background color to olive */
-@media screen and (max-width: 625px) {
-  .search {
-  }
-}
